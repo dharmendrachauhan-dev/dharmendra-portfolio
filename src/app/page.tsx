@@ -147,7 +147,7 @@ export default function Home() {
           <p className="text-sm text-[var(--muted-foreground)]">
             You can reach me anytime at{" "}
             <a
-              href="mailto:andrei@hudovich.com"
+              href="mailto:dmma359800@gmail.com"
               className={cn(
                 "font-mono text-xs underline underline-offset-2",
                 "text-[var(--foreground)] hover:text-amber-500 transition-colors"
