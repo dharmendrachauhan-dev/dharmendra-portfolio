@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { X, Download } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-const RESUME_URL = process.env.NEXT_PUBLIC_RESUME_URL ?? "";
+const RESUME_URL = "https://res.cloudinary.com/dharmendraji/image/upload/v1787602110/a6npi5cvgl8qb2cu2ikg.pdf";
 const RESUME_FILENAME = "Dharmendra-Chauhan-Resume.pdf";
 
 export function ResumeDialog() {
