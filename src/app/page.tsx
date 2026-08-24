@@ -113,10 +113,10 @@ export default function Home() {
               <span className="text-amber-500">Dharmendra Chauhan</span>!
             </h1>
             <p className="text-sm text-[var(--muted-foreground)] leading-relaxed">
-              A AI & Backend devloper based in mumbai, India
+              A Backend Developer & Generative AI Engineer based in mumbai, India
             </p>
             <p className="text-sm text-[var(--muted-foreground)] leading-relaxed">
-            As a Backend developer and AI Engineer, I focus on designing robust APIs, 
+            As Backend Developer & Generative AI Engineer, I focus on designing robust APIs, 
             database architectures, authentication systems, and intelligent applications {" "}
             powered by AI and RAG technologies.
             </p>

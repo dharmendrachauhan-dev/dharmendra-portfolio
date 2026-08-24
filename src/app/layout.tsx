@@ -7,9 +7,9 @@ import { cn } from "@/lib/utils";
 const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 export const metadata: Metadata = {
-  title: "Dharmendra —  AI & Backend Developer",
+  title: "Dharmendra —  Backend Developer & Generative AI Engineer",
   description:
-    "AI and Backend devloper based in Mumbai, India. Specializing in React ecosystem.",
+    "Backend Developer & Generative AI Engineer based in Mumbai, India. Specializing in Backend ecosystem.",
 };
 
 export default function RootLayout({
