@@ -2,11 +2,13 @@
 
 import { motion } from "framer-motion";
 import { ContactDialog } from "@/components/ContactDialog";
+import { ResumeDialog } from "@/components/ResumeDialog";
 import { TechStackSection } from "@/components/TechBadge";
 import { ProjectsSection } from "@/components/ProjectCard";
 import { SocialLinks } from "@/components/SocialLinks";
 import { cn } from "@/lib/utils";
 import { AnimatedThemeToggler } from "@/components/ui/animated-theme-toggler";
+import { GitHubIcon } from "@/components/TechIcons";
 
 const fadeUp = {
   initial: { opacity: 0, y: 16 },
@@ -63,7 +65,28 @@ export default function Home() {
           >
             // <i>DC</i>
           </motion.span>
-          <AnimatedThemeToggler />
+          <div className="flex items-center gap-2">
+            <motion.a
+              href="https://github.com/dharmendrachauhan-dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.4 }}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              aria-label="GitHub profile"
+              className={cn(
+                "w-9 h-9 flex items-center justify-center rounded-full",
+                "border border-[var(--border)]",
+                "bg-[var(--background)] text-[var(--foreground)]",
+                "hover:bg-[var(--accent)] transition-colors"
+              )}
+            >
+              <GitHubIcon size={16} />
+            </motion.a>
+            <AnimatedThemeToggler />
+          </div>
         </div>
       </nav>
 
@@ -90,21 +113,18 @@ export default function Home() {
               <span className="text-amber-500">Dharmendra Chauhan</span>!
             </h1>
             <p className="text-sm text-[var(--muted-foreground)] leading-relaxed">
-              A full-stack AI engineer based in mumbai, India
+              A AI & Backend devloper based in mumbai, India
             </p>
             <p className="text-sm text-[var(--muted-foreground)] leading-relaxed">
-              I specialize on building web applications with{" "}
-              <ReactInline />
-              <span className="text-[var(--foreground)] font-medium">React</span>{" "}
-              ecosystem.
-            </p>
-            <p className="text-sm text-[var(--muted-foreground)] leading-relaxed">
-              If you need a reliable developer to build your product, I&apos;m here to help.
+            As a Backend developer and AI Engineer, I focus on designing robust APIs, 
+            database architectures, authentication systems, and intelligent applications {" "}
+            powered by AI and RAG technologies.
             </p>
           </div>
 
           <div className="flex items-center gap-2 flex-wrap">
             <ContactDialog />
+            <ResumeDialog />
           </div>
 
           <motion.div

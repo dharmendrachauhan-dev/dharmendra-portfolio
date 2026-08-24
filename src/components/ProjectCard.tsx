@@ -35,7 +35,7 @@ const projects: Project[] = [
   {
     icon: "📓",
     name: "BookLM",
-    status: "Ongoing",
+    status: "Complete",
     description:
       "An AI-powered notebook for learning from your own sources. Upload PDFs, websites, and YouTube videos — then chat with citations, generate quizzes, flashcards, mind maps, and more. Built with Next.js, Express, and RAG over Pinecone.",
     github: "https://github.com/dharmendrachauhan-dev/BookLM",
@@ -44,7 +44,7 @@ const projects: Project[] = [
   {
     icon: "🤖",
     name: "Bull SDK",
-    status: "Ongoing",
+    status: "Complete",
     description:
       "Documentation site for Bull SDK — a lightweight, provider-agnostic TypeScript SDK for building LLM agents with tool calling, guardrails, and multi-provider support (OpenAI, Groq, Gemini).",
     github: "https://github.com/dharmendrachauhan-dev/bullsdk-doc",
