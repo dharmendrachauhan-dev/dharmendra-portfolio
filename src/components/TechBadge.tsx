@@ -21,7 +21,7 @@ export function TechBadge({
       whileHover={{ scale: 1.05, y: -1 }}
       className={cn(
         "inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium",
-        "border border-[var(--border)] bg-[var(--background)]",
+        "border border-border bg-[var(--background)]",
         "text-[var(--foreground)] cursor-default select-none",
         "transition-colors hover:border-[var(--muted-foreground)]"
       )}

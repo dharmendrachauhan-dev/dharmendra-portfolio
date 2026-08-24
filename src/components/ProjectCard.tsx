@@ -33,32 +33,23 @@ const statusStyles: Record<ProjectStatus, { badge: string; dot: string; label: s
 
 const projects: Project[] = [
   {
-    icon: "🎯",
-    name: "Project Y",
+    icon: "📓",
+    name: "BookLM",
     status: "Ongoing",
     description:
-      "My new project that I work on in stealth mode for now. Building something exciting in the React ecosystem — more details coming soon.",
-    github: "https://github.com",
-    tech: ["Next.js", "TypeScript", "Tailwind"],
+      "An AI-powered notebook for learning from your own sources. Upload PDFs, websites, and YouTube videos — then chat with citations, generate quizzes, flashcards, mind maps, and more. Built with Next.js, Express, and RAG over Pinecone.",
+    github: "https://github.com/dharmendrachauhan-dev/BookLM",
+    tech: ["Next.js", "Express", "PostgreSQL", "Pinecone", "OpenAI", "Inngest"],
   },
   {
-    icon: "🐱",
-    name: "Listing Cat",
+    icon: "🤖",
+    name: "Bull SDK",
     status: "Ongoing",
     description:
-      "Marketing database for startups and indie hackers. Helps founders discover and list their products across the best directories.",
-    github: "https://github.com",
-    link: "https://listingcat.com",
-    tech: ["React", "Node.js", "Postgres"],
-  },
-  {
-    icon: "🔵",
-    name: "Bluesky Meter",
-    status: "Complete",
-    description:
-      "Realtime analytics for the Bluesky social network. Tracked follower growth, post reach, and engagement metrics. Successfully sold.",
-    github: "https://github.com",
-    tech: ["Next.js", "TanStack Query", "Supabase"],
+      "Documentation site for Bull SDK — a lightweight, provider-agnostic TypeScript SDK for building LLM agents with tool calling, guardrails, and multi-provider support (OpenAI, Groq, Gemini).",
+    github: "https://github.com/dharmendrachauhan-dev/bullsdk-doc",
+    link: "https://bullsdk-doc.vercel.app/",
+    tech: ["TypeScript", "Zod", "Next.js"],
   },
 ];
 

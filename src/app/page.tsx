@@ -171,12 +171,12 @@ export default function Home() {
             © {year}
           </span>
           <a
-            href="https://github.com"
+            href="https://github.com/dharmendrachauhan-dev"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[var(--foreground)] transition-colors underline underline-offset-2"
           >
-            This website is open-source ↗
+            @dharmendra chauhan ↗
           </a>
         </div>
       </motion.footer>
