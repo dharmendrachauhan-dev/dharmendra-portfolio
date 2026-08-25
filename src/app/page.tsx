@@ -5,6 +5,7 @@ import { ContactDialog } from "@/components/ContactDialog";
 import { ResumeDialog } from "@/components/ResumeDialog";
 import { TechStackSection } from "@/components/TechBadge";
 import { ProjectsSection } from "@/components/ProjectCard";
+import GitHubContributions from "@/components/GithubContribution";
 import { SocialLinks } from "@/components/SocialLinks";
 import { cn } from "@/lib/utils";
 import { AnimatedThemeToggler } from "@/components/ui/animated-theme-toggler";
@@ -152,6 +153,14 @@ export default function Home() {
             These are my personal projects, both past and ongoing:
           </p>
           <ProjectsSection />
+        </Section>
+
+        {/* GitHub */}
+        <Section label="GitHub Activity" delay={0.3}>
+          <p className="text-sm text-[var(--muted-foreground)]">
+            My open-source contributions and coding activity:
+          </p>
+          <GitHubContributions />
         </Section>
 
         {/* Socials */}
